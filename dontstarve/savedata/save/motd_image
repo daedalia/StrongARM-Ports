@@ -1,0 +1,56 @@
+KLEI     1 {
+    "dststeam":{
+        "image_url":"https://d21wmy1ql1e52r.cloudfront.net/motd7.tex",
+        "image_version":"28",
+        "link_title":"More Info!",
+        "link_url":"https://shop.klei.com"
+    },
+    "swsteam":{
+        "image_url":"https://d21wmy1ql1e52r.cloudfront.net/motd7.tex",
+        "image_version":"28",
+        "link_title":"More Info!",
+        "link_url":"https://shop.klei.com"
+    },  
+    "rogsteam":{
+        "image_url":"https://d21wmy1ql1e52r.cloudfront.net/motd7.tex",
+        "image_version":"28",
+        "link_title":"More Info!",
+        "link_url":"https://shop.klei.com"
+    },
+    "hamletsteam":{
+        "image_url":"https://d21wmy1ql1e52r.cloudfront.net/motd7.tex",
+        "image_version":"28",
+        "link_title":"More Info!",
+        "link_url":"https://shop.klei.com"
+    },
+    "hamletstandalone":{
+        "image_url":"https://d21wmy1ql1e52r.cloudfront.net/motd7.tex",
+        "image_version":"28",
+        "link_title":"More Info!",
+        "link_url":"https://shop.klei.com"
+    },
+    "steam":{
+        "image_url":"https://d21wmy1ql1e52r.cloudfront.net/motd7.tex",
+        "image_version":"28",
+        "link_title":"More Info!",
+        "link_url":"https://shop.klei.com"
+    },
+    "swstandalone":{
+        "image_url":"https://d21wmy1ql1e52r.cloudfront.net/motd7.tex",
+        "image_version":"28",
+        "link_title":"More Info!",
+        "link_url":"https://shop.klei.com"
+    },
+    "rogstandalone":{
+        "image_url":"https://d21wmy1ql1e52r.cloudfront.net/motd7.tex",
+        "image_version":"28",
+        "link_title":"More Info!",
+        "link_url":"https://shop.klei.com"
+    },
+    "standalone":{
+        "image_url":"https://d21wmy1ql1e52r.cloudfront.net/motd7.tex",
+        "image_version":"28",
+        "link_title":"More Info!",
+        "link_url":"https://shop.klei.com"
+    }
+}
