@@ -23,8 +23,6 @@ $ESUDO mkdir ~/.config/unity3d
 $ESUDO mkdir ~/.config/unity3d/Long\ Hat\ House
 $ESUDO ln -s /$GAMEDIR/savedata ~/.config/unity3d/Long\ Hat\ House/Dandara
 
-export LD_LIBRARY_PATH=$GAMEDIR/lib
-
 cd $GAMEDIR/gamedata/Dandara_Data
 
 $ESUDO chmod 666 /dev/uinput
