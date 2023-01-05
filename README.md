@@ -1,5 +1,5 @@
 # BoxPorts
-Ports packaged for the RG552 on JELOS mainline that leverage the Box86\64 system
+x86 games packaged for the RG552 on JELOS mainline that leverage the Box86\64 system
 
 ## Games
 
