@@ -34,4 +34,4 @@ x86 games packaged for the RG552 on JELOS mainline that leverage the Box86\64 sy
 - Final Vendetta
 - Runic Rampage
 - Streets of Rage 4
-- 
+- Neuro Voider
