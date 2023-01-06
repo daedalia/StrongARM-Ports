@@ -1,11 +1,11 @@
 # BoxPorts
-x86 games packaged for the RG552 on JELOS mainline that leverage the Box86\64 system
+Linux x86 games packaged for the RG552 on JELOS mainline that leverage the Box86\64 system
 
 ## Games
 
 - [ ] A Short Hike - Working, low fps 10-20.
 - [ ] Blasphemous - Loads to title, no input currently
-- [ ] Broforce - Works, quite stuttery
+- [ ] Broforce - Works, little stutter on asset load, using dev build currently.
 - [ ] Dandara - Needs Steam stub lib copying over game content
 - [ ] Downwell - To be tested with WINE, windows binary
 - [x] Don't Starve
