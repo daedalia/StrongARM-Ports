@@ -18,6 +18,9 @@ printf "\033c" > /dev/tty1
 PORTFOLDER=/storage/roms/ports
 GAMEDIR=$PORTFOLDER/broforce
 
+export PAN_MESA_DEBUG=gl3
+export BOX64_LOG=1
+export SDL_DYNAMIC_API=libSDL2-2.0.so.0
 export LD_LIBRARY_PATH=$GAMEDIR/lib
 
 $ESUDO cp $GAMEDIR/Options.xml $GAMEDIR/gamedata/Saves/Options.xml
@@ -28,8 +31,7 @@ cd $GAMEDIR/gamedata
 $ESUDO chmod 666 /dev/uinput
 
 $GPTOKEYB "Broforce.x86_64" xbox360 -c "$GAMEDIR/control.gptk" &
-
-$PORTFOLDER/MAINLINE/run.sh box64 $GAMEDIR/gamedata/Broforce.x86_64 2>&1 | tee $GAMEDIR/log.txt
+box64 $GAMEDIR/gamedata/Broforce.x86_64 2>&1 | tee $GAMEDIR/log.txt
 $ESUDO kill -9 $(pidof gptokeyb)
 
 printf "\033c" >> /dev/tty1

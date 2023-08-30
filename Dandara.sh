@@ -18,6 +18,10 @@ printf "\033c" > /dev/tty1
 PORTFOLDER=/storage/roms/ports
 GAMEDIR=$PORTFOLDER/dandara
 
+export PAN_MESA_DEBUG=gl3
+export BOX64_LOG=1
+export SDL_DYNAMIC_API=libSDL2-2.0.so.0
+
 $ESUDO mkdir ~/.config/unity3d
 $ESUDO mkdir ~/.config/unity3d/Long\ Hat\ House
 $ESUDO rm -rf ~/.config/unity3d/Long\ Hat\ House/Dandara
@@ -28,8 +32,7 @@ cd $GAMEDIR/gamedata/Dandara_Data
 $ESUDO chmod 666 /dev/uinput
 
 $GPTOKEYB "Dandara.x86_64" xbox360 &
-
-$PORTFOLDER/MAINLINE/run.sh box64 $GAMEDIR/gamedata/Dandara.x86_64 2>&1 | tee $GAMEDIR/log.txt
+box64 $GAMEDIR/gamedata/Dandara.x86_64 2>&1 | tee $GAMEDIR/log.txt
 $ESUDO kill -9 $(pidof gptokeyb)
 
 printf "\033c" >> /dev/tty1

@@ -14,11 +14,15 @@ get_controls
 
 GAMEDIR="/$directory/ports/swarmracer"
 
+export PAN_MESA_DEBUG=gl3
+export BOX64_LOG=1
+export SDL_DYNAMIC_API=libSDL2-2.0.so.0
+
 cd $GAMEDIR/gamedata
 
 $ESUDO chmod 666 /dev/uinput
 $GPTOKEYB "swarm" -c "$GAMEDIR/control.gptk" &
-/$directory/ports/MAINLINE/run.sh box64 $GAMEDIR/gamedata/swarm 2>&1 | tee $GAMEDIR/log.txt
+box64 $GAMEDIR/gamedata/swarm 2>&1 | tee $GAMEDIR/log.txt
 $ESUDO kill -9 $(pidof gptokeyb)
 unset LD_LIBRARY_PATH
 printf "\033c" >> /dev/tty1
