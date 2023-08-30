@@ -18,9 +18,9 @@ printf "\033c" > /dev/tty1
 PORTFOLDER=/storage/roms/ports
 GAMEDIR=$PORTFOLDER/dandara
 
-$ESUDO rm -rf ~/.config/unity3d
 $ESUDO mkdir ~/.config/unity3d
 $ESUDO mkdir ~/.config/unity3d/Long\ Hat\ House
+$ESUDO rm -rf ~/.config/unity3d/Long\ Hat\ House/Dandara
 $ESUDO ln -s /$GAMEDIR/savedata ~/.config/unity3d/Long\ Hat\ House/Dandara
 
 cd $GAMEDIR/gamedata/Dandara_Data

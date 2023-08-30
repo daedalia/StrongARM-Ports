@@ -15,8 +15,8 @@ get_controls
 PORTFOLDER=/storage/roms/ports
 GAMEDIR=$PORTFOLDER/dontstarve
 
-$ESUDO rm -rf ~/.klei
 $ESUDO mkdir ~/.klei
+$ESUDO rm -rf ~/.klei/DoNotStarve
 $ESUDO ln -s /$GAMEDIR/savedata ~/.klei/DoNotStarve
 
 cd $GAMEDIR/gamedata/bin

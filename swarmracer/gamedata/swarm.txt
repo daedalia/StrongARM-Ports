@@ -1,0 +1,213 @@
+
+============================================================================
+
+ Swarm Racer v2.2.1
+
+ (c) Copyright 2006-2015 Lexaloffle Games LLP. All Rights Reserved.
+ http://www.lexaloffle.com
+
+============================================================================
+
+Contents:
+
+1. System Requirements
+2. Menus and Options
+3. How to Play
+4. Credits
+5. History
+
+
+----------------------------------------------------------------
+1. SYSTEM REQUIREMENTS
+----------------------------------------------------------------
+
+To play Swarm Racer you will need:
+
+- MacOS X, Windows or Linux
+- 600MHz processor or faster.
+
+
+----------------------------------------------------------------
+2. MENUS AND OPTIONS
+----------------------------------------------------------------
+
+Use the cursor keys to choose a menu item and press enter or space to
+select it. Alternative you can press the first letter of any option. To
+go exit any menu, press escape.
+
+MAIN MENU
+
+	RACE: This takes you to the race menu.
+	PLAY MOVIE: Plays whatever is in the clipboard.
+	INSTRUCTIONS: Shows some basic instructions.
+	OPTIONS: Go to the options menu.
+	EXIT: Exits the game.
+
+
+RACE MENU
+
+	There are 8 tracks to choose from. Press 1-8, or select them by
+	pressing left and right. The menu options are:
+	
+	RACE: Play the currently selected track.
+	EXTRA TRACKS: Select a track from the extra tracks folder.
+	SUBMIT FASTED TIME ONLINE: This opens a web browser and submits
+	your fastest time to the global fastest times board.
+	PLAY FASTEST TIME MOVIE: Load and play the movie of the fastest
+	time for the current track.
+	COPY LAST MOVIE TO CLIPBOARD: Copies the last game you played
+	into the clipboard.
+	PLAY LAST MOVIE: Shows the last game you played. (Not the one
+	in the clipboard).
+	BACK: Go back to the main menu.
+
+
+OPTIONS MENU
+
+	SOUND VOLUME: Press left and right to change.
+	MUSIC VOLUME: Press left and right to change.
+	ENGINE VOLUME: Press left and right to change.
+	ENGINE SOUND: Choose the sound the engine makes.
+	VIDEO MODE: Switch between windowed and fullscreen modes.
+	BEE COLOUR: Change the colour of the bees in the game.
+	BACK: Go back to the main menu.
+
+
+MOVIES
+
+Swarm Racer allows you to record and play back movies of a race. If you
+copy the last movie to the clipboard, it is saved in a text format which
+can then be pasted into a text file or a post on the bbs:
+
+http://www.lexaloffle.com/bbs
+
+To play a movie that has been saved as some text, copy the text into the
+clipboard (e.g. select the text and then choose Edit->Copy) and then
+press PLAY MOVIE from the main menu.
+
+
+OTHER KEYS
+
+Switch between windowed and fullscreens modes at any time by holding 
+down ALT + enter.
+
+
+----------------------------------------------------------------
+3. HOW TO PLAY
+----------------------------------------------------------------
+
+The object of Swarm Racer is to collect all of the gems in each track as
+fast as possible. This requires a bit of planning, a bit of luck, and a
+lot of swarm controlling finesse. 
+
+KEYS
+
+Cursors: Move
+Z: Spread Out
+X: Regroup
+R: Restart
+
+If you have trouble with key locking, you can mix and match with this
+alternative set of key:
+
+ASDW: Move
+CTRL: Spread Out
+ALT: Regroup
+
+TIPS
+
+The key to getting fast times is learning how to control your swarm
+effectively. Here are some tips:
+
+1. No bee left behind. Sometimes it is worth ditching the odd stray bee,
+but in general try to keep your swarm together with the regroup key (X)
+whenever it starts getting messy.
+
+2. Spread out to collect large areas of gems. If you keep your finger
+down on Z, your swarm will eventually move into a large circle which
+makes it easier to sweep through a lot of gems at once.
+
+3. Use the walls. To get your swarm into a really tight pack, try
+running up against the side of a wall or into a corner.
+
+4. Watch movies. Study how other people handle their swarms by visiting
+the BBS: http://www.lexaloffle.com/bbs
+
+
+WALL TYPES
+
+	RED: Blinky
+	These walls blink on and off in a regular fashion, so you can predict 
+	the pattern with a bit of examination.
+
+	GREEN: Bouncey
+	Try holding down the regroup key to avoid having your swarm separated 
+	from bouncing all over the place.	
+
+	YELLOW: Sticky
+	Not really a wall - your bees can move through this, but very
+	slowly. In general it's best to just avoid them.	
+
+
+TROPHIES
+
+If you get a fast time, you win a trophy. The times required for each
+trophy are shown at the start of each race, and your best trophy for
+each track is shown on the race menu screen. Try to collect all 8 gold
+trophies. Go on. Bet you can't.
+
+
+----------------------------------------------------------------
+4. CREDITS
+----------------------------------------------------------------
+
+Swarm Racer was designed and coded by Joseph White.
+
+Music by Vincenzo: www.freshmindworkz.hu/vincenzo
+
+Sound effects made using Milky Tracker: www.milkytracker.net
+
+This game was written using SDL: www.libsdl.org
+
+Special thanks to Stef Animal for helping with the sound and providing
+valuable insight. You rock Stef. Also many thanks to all of the Ludum
+Dare folk for feedback and inspiration for the original version.
+
+
+----------------------------------------------------------------
+5. HISTORY
+----------------------------------------------------------------
+
+v2.2.1
+Moved to SDL2
+64-bit Linux builds
+
+v2.2
+Web version added
+Moved instructions to title screen
+Added web buttons
+Added mouse support for menus
+
+v2.1.2
+Linux version added
+Removed SDLMixer dependency
+
+v2.1.1
+Added support for .BMP track files.
+Fixed time stamps on recordings bug.
+Fixed open extra tracks folder bug (Mac OS X).
+
+v2.1
+Added extra tracks loader + 4 extra tracks.
+Added key state display for movies.
+Remember player name for best times.
+Fixed engine sound bug.
+Better movie file locations under Mac OS X.
+
+v2.0
+Added a whole bunch of stuff.
+First official release.
+
+v1.0 
+Ludum Dare version.
+

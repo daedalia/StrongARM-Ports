@@ -18,7 +18,13 @@ printf "\033c" > /dev/tty1
 PORTFOLDER=/storage/roms/ports
 GAMEDIR=$PORTFOLDER/Huntdown
 
+$ESUDO mkdir ~/.config/unity3d
+$ESUDO mkdir ~/.config/unity3d/Coffee\ Stain\ Publishing
+$ESUDO rm -rf ~/.config/unity3d/Coffee\ Stain\ Publishing/Huntdown
+$ESUDO ln -s /$GAMEDIR/savedata ~/.config/unity3d/Coffee\ Stain\ Publishing/Huntdown
+
 $ESUDO cp $GAMEDIR/gamedata/lib/libsteam_api.so $GAMEDIR/gamedata/Huntdown_Data/Plugins/libsteam_api.so
+#Copy configuration over
 
 cd $GAMEDIR/gamedata
 

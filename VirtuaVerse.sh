@@ -17,6 +17,12 @@ GAMEDIR=$PORTFOLDER/VirtuaVerse
 
 $ESUDO cp $GAMEDIR/gamedata/lib/libsteam_api.so $GAMEDIR/gamedata/VirtuaVerse_Data/Plugins/libsteam_api.so
 
+$ESUDO mkdir ~/.config/unity3d
+$ESUDO mkdir ~/.config/unity3d/Theta\ Division\ Games
+$ESUDO rm -rf ~/.config/unity3d/Theta\ Division\ Games/VirtuaVerse
+$ESUDO ln -s /$GAMEDIR/savedata ~/.config/unity3d/Theta\ Division\ Games/VirtuaVerse
+
+
 cd $GAMEDIR/gamedata
 
 $PORTFOLDER/MAINLINE/run.sh box64 VirtuaVerse.x86_64 2>&1 | tee $GAMEDIR/log.txt
