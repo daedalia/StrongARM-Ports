@@ -1,4 +1,4 @@
-# ARM Ports
+# StrongARM Ports
 Linux x86 games packaged for the RG552/OGU/RGB10 Max 3 on JELOS mainline. Thanks to [JohnnyonFlame](https://github.com/JohnnyonFlame) for his excellent work blazing the trail followed by the work here, without which, this repo would not exist.
 
 ## Games
