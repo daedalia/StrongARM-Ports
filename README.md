@@ -12,7 +12,7 @@ Linux x86 games packaged for the RG552/OGU/RGB10 Max 3 on JELOS mainline. Thanks
 | FEZ                                    | &check; | &check; | FNA      | &check;  | Investigate QoL patch for pre set scaling resolutions. Thanks to [jtothebell](https://github.com/jtothebell) for the patch to fix (https://github.com/jtothebell/port-packages) |
 | Fluffy Horde                           | &check; | -       | Box64    |          | Loads to colour cycling screen, requires investigation                                                                                                                          |
 | Hollow Knight                          | &check; | &cross; | Box64    |          | Can crash, 15fps                                                                                                                                                                |
-| Huntdown                               | &check; | &cross; | Box64    | &check;  | Freezing in latest build of JELOS. Buttons are not correct.                                                                                                                     |
+| Huntdown                               | &check; | &cross; | Box64    | &check;  | Freezing on RG552 in latest build of JELOS. Buttons are not correct.                                                                                                            |
 | Iconoclasts                            | -       | &cross; | Box64    |          | Fails on loading a level                                                                                                                                                        |
 | If on a Winters Night, Four Travellers | &check; | -       | Box64    |          | Progress bar completes, crashes. try different version                                                                                                                          |
 | Lilas Sky Ark                          | &check; | -       | Box64    |          | Very slow, 8fps                                                                                                                                                                 |
@@ -34,9 +34,7 @@ Linux x86 games packaged for the RG552/OGU/RGB10 Max 3 on JELOS mainline. Thanks
 
 ## To try
 - Chroma Squad
-- Downwell - Try with Wine
 - Final Vendetta
 - Runic Rampage
-- Streets of Rage 4
 - Neuro Voider
 - Zombusters - Monogame

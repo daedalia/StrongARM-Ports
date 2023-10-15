@@ -1,0 +1,6 @@
+name: "Daedalia - Controller UI"
+version: "0.1"
+author: "Daedalia"
+description: "Adds controller button denominations to UI"
+id: daedalia-controller-ui
+master: xcom1
